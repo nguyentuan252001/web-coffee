@@ -1,0 +1,85 @@
+@media (max-width: 740px) {
+
+}
+
+/* Moblie */
+@media (max-width: 1024px)  {
+    .mobile-menu {
+        display: block;
+        padding: 20px 0;
+    }
+    .mobile__nav-bar {
+        /* display: block; */
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #000;
+    }
+    .active {
+        display: block;
+    }
+    .mobile-menu p {
+        display: inline-block;
+        color: #fff;
+        
+    }
+    .container {
+        width: 940px;
+    }
+    .header{
+        height: 70px;
+        background-color: #000;
+        padding: 0 30px;
+        border-bottom: none;
+    }
+    .header__nav-bar {
+        display: none;
+    }
+    .container__contact {
+        padding: 0;
+    }
+    .booktable {
+        position: relative;
+        max-width: unset;
+    }
+    .booktable input[name=firtName], .booktable input[name=lastName] {
+        width: 40%;
+    }
+    .booktable input[name=phone], #date, #time {
+        width: 23%;
+    }
+    .discover-right .sec2 {
+        padding: 10px;
+    }
+    .discover-right div {
+        padding: 10px;
+    }
+    .discover-right .sec1, .discover-right .sec2 {
+        padding: 0;
+    }
+    .discover2-left span {
+        width: auto ;
+    }
+    .container__customers .sayss {
+        display: block;
+    }
+    .container__customers .overlay {
+        display: none;
+    }
+    .customers-says .sub-heading {
+        transform: translate(-50%,-300%);
+    }
+    .container__end {
+        display: block;
+    }
+    .container__end .col {
+        display: inline-block;
+        width: 40%;
+        margin-bottom: 50px;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
